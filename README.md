@@ -83,13 +83,14 @@ By archiving deployed contracts onto **IPFS**, Archiva significantly **reduces b
 ## **Installation and Setup**  
 
 The project is divided into three directories:  
-1. [**Website**]() – Contains the frontend code.  
-2. [**API**](https://github.com/roahr/Archiva/tree/main/archiva-api) – Contains the backend server and API logic.  
-3. [**Smart Contracts**](https://github.com/roahr/Archiva/tree/main/archiva-educhain) – Contains the Solidity contracts and deployment scripts.  
+1. [**Website**](https://github.com/Nidhi045/Archiva/tree/main/archiva-website) – Contains the frontend code.
+2. [**Chrome Extension**](https://github.com/Nidhi045/Archiva/tree/main/archiva-chrome-extension) - Contains the Chrome Extension Code
+3. [**API**](https://github.com/Nidhi045/Archiva/tree/main/archiva-api) – Contains the backend server and API logic.  
+4. [**Smart Contracts**](https://github.com/Nidhi045/Archiva/tree/main/archiva-educhain-contracts) – Contains the Solidity contracts and deployment scripts.  
 
 ### **1. Clone the Repository**  
 ```sh
-git clone https://github.com/roahr/archiva.git
+git clone https://github.com/Nidhi045/Archiva.git archiva
 cd archiva
 ```
 
@@ -98,7 +99,7 @@ Navigate to each directory and install dependencies:
 
 #### **Website**  
 ```sh
-cd frontend
+cd archiva-website
 npm install
 ```
 
@@ -110,7 +111,7 @@ npm install
 
 #### **Smart Contracts**  
 ```sh
-cd archiva-educhain
+cd archiva-educhain-contracts
 npm install
 ```
 
